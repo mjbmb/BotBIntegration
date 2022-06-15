@@ -19,8 +19,8 @@ public class AuftragSender implements JavaDelegate {
         fileAdministrator.makeDirInRootDir("/Auftraege");
         fileAdministrator.writeToFile(fileAdministrator.getRootDir()+"/Auftraege"+"/"+businessKey+"--Auftrag.txt",value,false);
         fileAdministrator.convertTxtToPdf(fileAdministrator.getRootDir()+"/Auftraege"+"/"+businessKey+"--Auftrag.txt", fileAdministrator.getRootDir()+"/Auftraege"+"/"+businessKey+"--Auftrag.pdf", 15);
-        fileAdministrator.deleteFile(fileAdministrator.getRootDir()+"/Auftraege"+"/"+businessKey+"--Auftrag.txt");
-        fileAdministrator.deleteFile(fileAdministrator.getRootDir()+"/Message"+"/"+businessKey+"--message.txt");
+        fileAdministrator.writeToFile(fileAdministrator.getRootDir()+"/Output/ChipsAuftrag.txt", "", false);
+        fileAdministrator.writeToFile(fileAdministrator.getRootDir()+"/Output/PlatinenAuftrag.txt", "", false);
     }
 }
 

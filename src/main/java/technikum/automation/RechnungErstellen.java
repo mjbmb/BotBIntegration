@@ -14,5 +14,7 @@ public class RechnungErstellen implements JavaDelegate {
         FileAdministrator fileAdministrator = new FileAdministrator();
         fileAdministrator.makeDirInRootDir("/Output");
         fileAdministrator.makePdfDeliveryConfirmation(fileAdministrator.getRootDir()+"/Message/"+businessKey+"--message.txt", fileAdministrator.getRootDir()+"/Output/"+businessKey+"--output.pdf", 15);
+        fileAdministrator.deleteFile(fileAdministrator.getRootDir()+"/Auftraege"+"/"+businessKey+"--Auftrag.txt");
+        fileAdministrator.deleteFile(fileAdministrator.getRootDir()+"/Message"+"/"+businessKey+"--message.txt");
     }
 }
