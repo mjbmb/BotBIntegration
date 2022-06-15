@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "text": "# Auftrag",
+      "type": "text",
+      "id": "Field_1kwo59p"
+    },
+    {
+      "label": "Auftrag",
+      "type": "textfield",
+      "id": "Field_1og09ft",
+      "key": "auftrag",
+      "description": "Hier steht der Auftrag",
+      "disabled": false,
+      "validate": {
+        "required": true
+      },
+      "properties": {}
+    },
+    {
+      "action": "submit",
+      "label": "Button",
+      "type": "button",
+      "id": "Field_1ast5wy",
+      "key": "field_00psapb"
+    }
+  ],
+  "type": "default",
+  "id": "Auftrag",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}

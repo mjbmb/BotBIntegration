@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "text": "# Zu produzierende Produkte",
+      "type": "text",
+      "id": "Field_05pbhm3",
+      "properties": {}
+    },
+    {
+      "values": [
+        {
+          "value": "Chip1",
+          "label": "Chip1"
+        },
+        {
+          "value": "Chip2",
+          "label": "Chip2"
+        },
+        {
+          "value": "Platine1",
+          "label": "Platine1"
+        },
+        {
+          "value": "Platine2",
+          "label": "Platine2"
+        },
+        {
+          "value": "Chip3",
+          "label": "Chip3"
+        },
+        {
+          "value": "Platine3",
+          "label": "Platine3"
+        }
+      ],
+      "label": "Zu produzierendes Produkt",
+      "type": "select",
+      "id": "Field_0s2akn1",
+      "key": "produktname",
+      "description": "Gibt eines der zu produziernden Produkte an.",
+      "validate": {
+        "required": true
+      },
+      "properties": {}
+    },
+    {
+      "values": [
+        {
+          "label": "Ja",
+          "value": "ja"
+        },
+        {
+          "value": "nein",
+          "label": "Nein"
+        }
+      ],
+      "label": "Auftag complet?",
+      "type": "select",
+      "id": "Field_0w6w0jx",
+      "key": "erfüllt",
+      "description": "Git an ob alle Produkte erfasst wurden.",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Button",
+      "type": "button",
+      "id": "Field_031c5ny",
+      "key": "field_02hfsuo"
+    }
+  ],
+  "type": "default",
+  "id": "Produktangabe",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}

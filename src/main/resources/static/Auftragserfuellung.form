@@ -1,0 +1,28 @@
+{
+  "components": [
+    {
+      "label": "Checkbox",
+      "type": "checkbox",
+      "id": "Field_1r3hxdx",
+      "key": "Auftragserfüllung",
+      "description": "Alle Anforderungen des Auftrags sind erfüllt.",
+      "disabled": false
+    },
+    {
+      "action": "submit",
+      "label": "Button",
+      "type": "button",
+      "id": "Field_0dn75z4",
+      "key": "field_0d0blfb"
+    }
+  ],
+  "type": "default",
+  "id": "Auftragserfuelung",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}

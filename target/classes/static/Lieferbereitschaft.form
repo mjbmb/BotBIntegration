@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "label": "Checkbox",
+      "type": "checkbox",
+      "id": "Field_1cavlp5",
+      "key": "Lieferbereitschaft",
+      "description": "Das Produkt ist fertig für den Versand"
+    },
+    {
+      "action": "submit",
+      "label": "Button",
+      "type": "button",
+      "id": "Field_08lrm38",
+      "key": "field_18w7dys"
+    }
+  ],
+  "type": "default",
+  "id": "Lieferbereitschaft",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}

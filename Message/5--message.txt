@@ -1,0 +1,2 @@
+Platine=3
+Chip=1
