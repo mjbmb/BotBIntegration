@@ -1,0 +1,6 @@
+Platine=2
+Platine=3
+Platine=1
+Platine=2
+Platine=2
+

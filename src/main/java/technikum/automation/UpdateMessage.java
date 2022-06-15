@@ -19,7 +19,5 @@ public class UpdateMessage implements JavaDelegate{
         FileAdministrator fileAdministrator = new FileAdministrator();
         fileAdministrator.makeDirInRootDir("/Message");
         fileAdministrator.writeToFile(fileAdministrator.getRootDir()+"/Message/"+businessKey+"--message.txt", produktKey+"="+produktName,true);
-        fileAdministrator.deleteFile(fileAdministrator.getRootDir()+"/Message/"+businessKey+"--message.pdf");
-        fileAdministrator.convertTxtToPdf(fileAdministrator.getRootDir()+"/Message/"+businessKey+"--message.txt", fileAdministrator.getRootDir()+"/Message/"+businessKey+"--message.pdf", 15);
     }
 }
